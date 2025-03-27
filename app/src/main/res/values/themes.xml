@@ -3,7 +3,30 @@
     <style name="Base.Theme.DecodeTheCall" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
     <style name="Theme.DecodeTheCall" parent="Base.Theme.DecodeTheCall" />
+
+
+        <style name="DialerNumberButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+            <item name="android:layout_width">0dp</item>
+            <item name="android:layout_height">100dp</item>
+            <item name="android:layout_columnWeight">1</item>
+            <item name="android:textSize">22sp</item>
+            <item name="strokeColor">#3700B3</item>
+            <item name="backgroundTint">#1E1E1E</item>
+            <item name="rippleColor">#6200EE</item>
+
+        </style>
+
+        <style name="CallButton">
+            <item name="android:backgroundTint">#4CAF50</item>
+            <item name="android:textColor">#FFFFFF</item>
+            <item name="cornerRadius">24dp</item>
+            <item name="android:padding">12dp</item>
+        </style>
+
+
+
 </resources>
